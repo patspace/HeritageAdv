@@ -1,0 +1,25 @@
+User-agent: *
+Crawl-delay: 10
+Disallow:
+
+User-agent: MJ12bot
+Disallow: / 
+ 
+User-agent: Baiduspider
+Disallow: / 
+ 
+User-agent: YandexBot
+Disallow: / 
+ 
+User-agent: dotbot
+Disallow: / 
+
+User-agent: msnbot 
+Crawl-delay: 20
+Disallow:
+
+User-agent: BUbiNG
+Disallow: / 
+
+User-agent: *
+Disallow: */cms-core/

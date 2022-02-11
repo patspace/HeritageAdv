@@ -1,0 +1,110 @@
+ @import url("http://fonts.googleapis.com/css?family=Quattrocento");
+
+
+
+
+/* #830C2C  #605F5F #830C2C */
+h1, h2, h3, h4,
+header .contact,
+#articleContent strong,
+#glossaryContent h3 a,
+#additional nav a,
+aside h2 a                {color:#830C2C;}
+
+nav,
+nav ul ul,
+footer                    {background-color:#605F5F;}
+#additional nav li        {border-left:1px solid #830C2C;}
+
+.back-to-top{background: #830C2C; }
+
+
+
+.navbar, 
+nav#main .container ul li:hover > a {background:#830C2C !important;}
+nav#main .container ul li:hover > a:active {background:#830C2C !important; color:blue;}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:focus, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > li > a:focus, 
+.navbar-default .navbar-nav > li > a:hover {background-color:#830C2C; color:#fff !important; }
+nav#main .container ul li a.selected {background:#830C2C;}
+
+/*HERO*/
+.heroDesc .learnmore { color:#fff; border-color:#830C2C; background:#830C2C;}
+.heroDesc .learnmore:hover {background:#830C2C; border-color:#830C2C; opacity:0.75;}
+
+@media (min-width: 992px) {
+    .top-bar  {background:#605F5F;}
+}
+
+.submit,
+.learnmore{
+  border:solid 1px #830C2C;
+  color:#830C2C;
+background:transparent;
+}
+.submit:hover,
+.submit:focus,
+.learnmore:hover,
+.learnmore:focus {
+  background:#830C2C;
+  opacity:0.75;
+  color:#fff;
+}
+#additional {background-color:#F8F8F5;}
+#additional ul 
+#matterContent .flagBody {background:#830C2C;}
+
+a, a:hover{color:#830C2C;}
+#additional nav li{
+border:none;}
+#additional nav .selected {color:#830C2C;}
+#additional nav .selected, 
+#additional nav a:hover     {border-radius:0;}
+#additional h4 a            {color:#666;}
+
+footer .contact a {text-decoration:underline; color:#fff;}
+footer a        {color:#fff;}
+footer a:hover	{color:#D8D8D6;}
+
+
+.article-008 th,
+.article-012 th,
+.article-017 th {background-color:#830C2C}
+
+/*CONTENT GATE MODAL*/
+.c-popup__submit{
+    color:#830C2C; border-color:#830C2C; background:#830C2C;
+}
+.c-popup__submit:hover {
+    opacity:0.75;
+}
+
+.c-matter__meta {
+    color: #830C2C;
+}
+
+.c-matter__pull-quote {
+    background-color: #830C2C;
+    color: #fff;
+}
+
+/*EVENTS
+//==================================================*/
+.c-event__date-box {
+    border-color: #830C2C;
+}
+.c-event-date--day {
+    color: #830C2C;
+}
+
+
+h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a  {font-family: Quattrocento, serif;}
+
+h1, h1 a                    {font-size: 38px;}
+h2, h2 a                    {font-size: 30px;}
+h3, h3 a                    {font-size: 22px;}
+header h3		            {font-size: 36px;}
+h4, h4 a                    {font-size: 20px;}
+header h4		            {font-size: 26px;}
